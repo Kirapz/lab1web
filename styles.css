@@ -62,8 +62,23 @@ footer {  background-color: #333;
   border-radius: 5px;
 }
 
-.recipe img {
-  max-width: 100%;
+.recipe {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 500px;
+  width: 100%;
   height: auto;
   border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  img {
+    max-width: 100%;
+  }
 }
