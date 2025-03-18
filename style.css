@@ -1,0 +1,341 @@
+/* Кнопка опису */
+.description-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    color: #5C4033;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.description-btn:hover {
+    background-color: #FFC107;
+}
+
+.description-btn:active {
+    background-color: #FFB300;
+}
+
+/* Стиль для опису страви */
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Стиль для прихованого опису */
+details {
+    margin-top: 10px;
+    max-width: 90%; /* Обмежує ширину */
+    margin: auto; /* Центрує блок */
+}
+
+details summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+details[open] .description {
+    display: block;
+}
+
+/* Меню */
+.menu {
+    padding: 40px;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Меню - сітка */
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Оформлення страв у меню */
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Вирівнює вміст рівномірно */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    min-height: 420px; /* Мінімальна висота */
+    width: 280px; /* Фіксована ширина */
+    text-align: center;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Зображення страв */
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+}
+
+/* Кнопки "Додати в кошик" */
+.menu-item .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F5E1C8; /* Бежевий фон */
+    color: #5C4033; /* Темно-коричневий текст */
+    font-size: 20px; /* Збільшений базовий шрифт */
+}
+
+/* Заголовок */
+header {
+    background-color: #8B5A2B; /* Коричневий */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Навігація */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Стилі для посилань у навігації */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px; /* Збільшено */
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Анімація при наведенні */
+nav ul li a:hover {
+    transform: scale(1.2);
+}
+
+/* Анімація при натисканні */
+nav ul li a:active {
+    transform: scale(0.9);
+}
+
+/* Банер */
+.banner {
+    background: url('banner.jpg') center/cover no-repeat;
+    background-color: white;
+    padding: 70px; /* Більший відступ */
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 95%;
+    font-size: 24px;
+}
+
+/* Кнопки */
+.btn {
+    background-color: #FFD700; /* Жовтий */
+    color: #5C4033; /* Темно-коричневий */
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none; /* Видаляє контур */
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer; /* Робить курсор "рукою" при наведенні */
+    transition: all 0.3s ease-in-out;
+    outline: none; /* Видаляє обводку при фокусі */
+}
+
+/* Анімація для кнопок */
+.btn:hover {
+    background-color: #FFC107;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: #FFB300;
+    transform: scale(0.95);
+}
+
+/* Секції */
+section {
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 90%; /* Збільшено ширину */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-size: 22px; /* Збільшено розмір тексту */
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    font-size: 28px; /* Заголовки більші */
+}
+
+/* Переваги */
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Збільшено */
+    gap: 30px;
+}
+
+.benefit img {
+    width: 100px;
+    height: auto;
+}
+
+
+/* Футер */
+footer {
+    background: #5C4033; /* Темно-коричневий */
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Адаптивність */
+@media (max-width: 600px) {
+    .benefit-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    section {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+
+
+/* Адаптивність для 788px */
+@media (max-width: 788px) {
+    .menu-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+        gap: 15px;
+    }
+
+    .menu-item {
+        padding: 10px;
+    }
+
+    .menu-item img {
+        height: 160px; /* Фіксована висота */
+    }
+
+    section {
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .banner {
+        padding: 50px;
+        font-size: 22px;
+    }
+}
+
+/* Адаптивність для 480px */
+@media (max-width: 480px) {
+    .menu-grid {
+        grid-template-columns: 1fr; /* Всі страви в 1 колонку */
+    }
+
+    .menu-item img {
+        height: 150px; /* Зменшена висота */
+    }
+
+    .banner {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    section {
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+
+/* Якщо у категорії тільки одна страва, вирівнюємо її по центру */
+@media (min-width: 1024px) {
+    .menu-grid:has(.menu-item:nth-child(1):nth-last-child(1)) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.menu-item img {
+    width: 100%;
+    height: 180px; /* Однакова висота для всіх картинок */
+    object-fit: cover; /* Забезпечує рівномірне заповнення */
+    border-radius: 8px;
+}
+
+/* Заголовки */
+.menu-item h3 {
+    font-size: clamp(18px, 2vw, 22px);
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Опис */
+.menu-item p {
+    font-size: clamp(14px, 1.8vw, 16px);
+    color: #666;
+    flex-grow: 1; /* Розтягує текст, щоб вирівняти кнопки */
+}
+
+/* Кнопка */
+.menu-item button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.menu-item button:hover {
+    background-color: #e68900;
+}

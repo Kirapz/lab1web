@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Наше меню</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="menu.html">Меню</a></li>
+            <li><a href="cart.html">Кошик</a></li>
+            <li><a href="orders.html">Мої замовлення</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Торти</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/cake.jpg" alt="Наполеон">
+                <h3>Наполеон</h3>
+                <p>Ціна: 260 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">Дуже ніжний тортик на заварному кремі та з медовими коржами</p>
+                </details>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/classic_cake.jpg" alt="Київський торт">
+                <h3>Київський торт</h3>
+                <p>Ціна: 300 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">Легендарний торт з повітряно-горіховими коржами та вершково-шоколадним кремом.</p>
+                </details>
+            </div>
+
+           <div class="menu-item">
+                <img src="img/mysscake1.jpg" alt="шоколадно-малиновий мусовий торт">
+                <h3>Школадно-малиновий мусовий торт</h3>
+                <p>Ціна: 350 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">ніжний шоколадний мус на бісквітній основі з прошарками малинового конфі. Легка текстура мусу гармонійно поєднується з кислинкою ягід.</p>
+                </details>
+            </div>
+            
+             <div class="menu-item">
+                <img src="img/mysscake2.jpg" alt="Манго-кокосовий мусовий торт">
+                <h3>Мангово-кокосовий мусовий торт</h3>
+                <p>Ціна: 350 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">кзотичне поєднання ніжного кокосового мусу та мангового пюре на легкій бісквітній основі. Освіжаючий та ніжний десерт.</p>
+                </details>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/custom_cake.jpg" alt="Індивідуальний торт">
+                <h3>Індивідуальне замовлення торта</h3>
+                <p>Ціна залежить від вибору</p>
+                <form>
+                    <label for="flavor">Смак:</label>
+                    <select id="flavor">
+                        <option value="Шоколадний">Шоколадний</option>
+                        <option value="Ванільний">Ванільний</option>
+                        <option value="Ягідний">Ягідний</option>
+                        <option value="Манго-Маракуя">Манго-Маракуя</option>
+                        <option value="Моркв'яний">Моркв'яний</option>
+                    </select>
+
+                    <label for="size">Розмір:</label>
+                    <select id="size">
+                        <option value="малий">Малий (до 6 порцій)</option>
+                        <option value="середній">Середній (до 10 порцій)</option>
+                        <option value="великий">Великий (до 15 порцій)</option>
+                    </select>
+
+                    <label for="decor">Декор:</label>
+                    <input type="text" id="decor" placeholder="Наприклад, мінімалістичний, квіти, фруктовий">
+
+                    <button type="submit" class="btn">Замовити</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Тістечка</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/eclair1.jpg" alt="Шоколадні еклери">
+                <h3>Шоколадні Еклери</h3>
+                <p>Ціна: 65 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">заварні тістечка з ніжним шоколадним кремом усередині, покриті глянцевою шоколадною глазур’ю. Кожен еклер тане в роті, даруючи насичений смак справжнього темного шоколаду.</p>
+                </details>
+            </div>
+            
+		 <div class="menu-item">
+                <img src="img/eclair2.jpg" alt="Ванільні Еклери">
+                <h3>Ванільні еклери</h3>
+                <p>Ціна: 65 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">легке та повітряне заварне тісто з ніжною ванільною начинкою на основі заварного крему та вершків. Десерт покритий тонкою глазур’ю з білого шоколаду для витонченого смаку.</p>
+                </details>
+            </div>
+
+
+             <div class="menu-item">
+                <img src="img/croasan1.jpg" alt="Шоколадний круасан">
+                <h3>Шоколадний круасан</h3>
+                <p>Ціна: 110 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">класичне французьке листкове тісто з хрусткою скоринкою, усередині якого тягучий шоколадний ганаш із бельгійського шоколаду..</p>
+                </details>
+            </div>
+            
+             <div class="menu-item">
+                <img src="img/croasan2.jpg" alt="Мигдалевий круасани">
+                <h3>Мигдалевий круасан</h3>
+                <p>Ціна: 90 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">ароматне тісто, просочене мигдалевим сиропом, з ніжною начинкою з мигдалевого крему та смажених горіхів. Зверху покритий цукровою пудрою</p>
+                </details>
+            </div>
+            
+             <div class="menu-item">
+                <img src="img/croasan3.jpg" alt="Класичний круасан">
+                <h3> Класичний круасан </h3>
+                <p>Ціна: 45 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">традиційний французький круасан з хрусткою скоринкою, що ідеально поєднується з кавою чи чаєм. Легкий вершковий смак та ідеальна текстура.</p>
+                </details>
+            </div>
+            
+  
+            <div class="menu-item">
+                <img src="img/macarons1.jpg" alt="Фісташкові макарони">
+                <h3>Фісташкові Макарони</h3>
+                <p>Ціна: 120 грн (6 шт.)</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">хрустка скоринка і ніжний крем на основі натуральної фісташкової пасти. Ніжний горіховий смак у поєднанні з легкою текстурою.</p>
+                </details>
+            </div>
+             <div class="menu-item">
+                <img src="img/macarons2.jpg" alt="Малинові макарони">
+                <h3>Малинові макарони</h3>
+                <p>Ціна: 120 грн (6 шт.)</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">класичні французькі тістечка з ягідною кислинкою, в яких малиновий ганаш ідеально поєднується з мигдалевим тістом.</p>
+                </details>
+            </div>
+             <div class="menu-item">
+                <img src="img/macarons3.jpg" alt="Шоколадні макарони">
+                <h3>Шоколадні Макарони</h3>
+                <p>Ціна: 170 грн (8 шт.)</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">делікатний десерт із насиченим шоколадним смаком, приготований на основі бельгійського темного шоколаду.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Десерти</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/cheesecake.jpg" alt="Чізкейк">
+                <h3>Чізкейк</h3>
+                <p>Ціна: 200 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">Класичний американський чізкейк на хрусткій основі з сирного крему.</p>
+                </details>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/tiramisu.jpg" alt="Тірамісу">
+                <h3>Тірамісу</h3>
+                <p>Ціна: 280 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">Італійський десерт з просоченого бісквіту, маскарпоне та какао.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+        <section>
+        <h2>Крамбл-Кукі</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/caramelcookie.jpg" alt="Карамельне крамбл-кукі">
+                <h3>Карамельне крамбл-кукі</h3>
+                <p>Ціна: 40 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">ароматне печиво з золотистою карамеллю, вкритою хрусткою масляною крихтою. У кожному шматочку поєднання ніжної текстури та насиченого карамельного смаку(ціна за 1 печиво).</p>
+                </details>
+            </div>
+            
+             <div class="menu-item">
+                <img src="img/berrycookie.jpg" alt=" Ягідне крамбл-кукі ">
+                <h3>Ягідне крамбл-кукі</h3>
+                <p>Ціна: 40 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">м'яке печиво з соковитою ягідною начинкою (чорниця, малина, журавлина), доповнене ароматною крихтою з вершкового масла та мигдалю. Легкий і збалансований десерт(ціна за 1 печиво).</p>
+                </details>
+            </div>
+            
+            <div class="menu-item">
+                <img src="img/chocoladcookie.jpg" alt="Шоколадне крамбл-кукі">
+                <h3>Шоколадне крамбл-кукі</h3>
+                <p>Ціна: 40 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">насичене шоколадне печиво з шматочками чорного та молочного шоколаду, покрите хрусткою какао-крихтою. Ідеальний вибір для любителів шоколаду(ціна за 1 печиво).</p>
+                </details>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Напої</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/cocoa.jpg" alt="Какао">
+                <h3>Какао</h3>
+                <p>Ціна: 50 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">Гаряче какао з молоком та маршмелоу.</p>
+                </details>
+            </div>
+            
+             <div class="menu-item">
+                <img src="img/latte.jpg" alt="Какао">
+                <h3>Латте з бабл</h3>
+                <p>Ціна: 80 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">Зігріваюче вершкове латте з м'якими кульками бабл</p>
+                </details>
+            </div>
+            
+            <div class="menu-item">
+                <img src="img/matcha.jpg" alt="Матча-лате">
+                <h3>Матча-лате</h3>
+                <p>Ціна: 90 грн</p>
+                <button class="btn">Додати в кошик</button>
+                <details>
+                    <summary class="description-btn">Опис</summary>
+                    <p class="description">Японський зелений чай матча з молоком.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Контакти: fgdfdgffd@gmail.com, +380 99 99 99</p>
+</footer>
+
+</body>
+</html>
